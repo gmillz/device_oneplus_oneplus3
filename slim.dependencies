@@ -13,5 +13,20 @@
     "repository": "SlimRoms/android_external_stlport",
     "target_path": "external/stlport",
     "branch": "mm6.0"
+  },
+  {
+    "repository": "SlimRoms/vendor_nxp-nfc_opensource_frameworks",
+    "target_path": "vendor/nxp-nfc/opensource/frameworks",
+    "branch": "mm6.0"
+  },
+  {
+    "repository": "SlimRoms/vendor_nxp-nfc_opensource_libnfc-nci",
+    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
+    "branch": "mm6.0"
+  },
+  {
+    "repository": "SlimRoms/vendor_nxp-nfc_opensource_Nfc",
+    "target_path": "vendor/nxp-nfc/opensource/Nfc",
+    "branch": "mm6.0"
   }
 ]
