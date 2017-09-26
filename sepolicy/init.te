@@ -1,4 +1,5 @@
 # symlink /sdcard to backing block
+allow init { domain -lmkd -crash_dump }:process noatsecure;
 allow init tmpfs:lnk_file create;
 
 # Run "ifup lo" to bring up the localhost interface
