@@ -25,6 +25,11 @@ audio.safx.pbe.enabled=true
 audio.parser.ip.buffer.size=262144
 qcom.hw.aac.encoder=true
 
+# ADB at boot
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
 # Battery
 ro.cutoff_voltage_mv=3250
 
