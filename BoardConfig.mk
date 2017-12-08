@@ -154,6 +154,7 @@ SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
+DONT_DEXPREOPT_PREBUILTS := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
