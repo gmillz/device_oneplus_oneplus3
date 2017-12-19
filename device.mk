@@ -21,6 +21,7 @@
 # definition file).
 #
 
+#$(call inherit-product, device/oneplus/oneplus3/hidl.mk)
 $(call inherit-product, vendor/oneplus/oneplus3/oneplus3-vendor.mk)
 
 # Overlays
